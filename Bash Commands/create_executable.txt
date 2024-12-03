@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --add-data "./controllers;controllers" --add-data "./models;models" --add-data "./guideline_excel_sheets;guideline_excel_sheets" --add-data "./utils;utils" --add-data "./client;client" --add-data "./Callsheet.xlsx" --hidden-import requests app.py
